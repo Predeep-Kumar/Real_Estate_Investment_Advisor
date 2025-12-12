@@ -85,7 +85,7 @@ because they exceed GitHub's file-size limits or are generated dynamically.
 
 OR you can download the complete project including models:
 
-🔗 https://drive.google.com/drive/folders/1IL1tq7V8FDzarkBf0JlfoV0MR-9RPrAN?usp=sharing
+🔗 https://drive.google.com/drive/folders/138icC7Ed5h1Vs75T6zlb4sMeAJjpW3XB?usp=drive_link 
 
 -------------------------------------------------------------
 
@@ -111,9 +111,12 @@ OR you can download the complete project including models:
 After preprocessing and EDA are complete, run MLflow setup and training scripts:
 
 1) **start_mlflow.bat** (Windows) or **start_mlflow.sh** (Mac/Linux)  
-2) **mlflow_init_experiment.py**  
-3) **train_classification.py**  
-4) **train_regression.py**
+2) **mlflow_init_experiment.py**
+  ```python src/mlflow_init_experiment.py ```
+4) **train_classification.py**
+   ``` python src/train_regression.py --mlflow_uri http://127.0.0.1:5000``` 
+6) **train_regression.py**
+   ``` python src/train_regression.py --mlflow_uri http://127.0.0.1:5000```
 
 ### ▶️ Before running:
 
