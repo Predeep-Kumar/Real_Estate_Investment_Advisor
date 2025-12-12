@@ -14,6 +14,29 @@ Preprocessing → Feature Engineering → EDA → Model Training → Model Compa
 -------------------------------------------------------------
 
 
+# 🔄 Fallback Mechanism (Auto-Load Models Without MLflow)
+
+The Streamlit app includes a built-in fallback system that ensures the
+application works even if MLflow is offline or unreachable.
+
+### ✔️ How fallback works:
+- Automatically checks MLflow tracking server connectivity  
+- If unreachable → skips MLflow and loads local models  
+- Searches for fallback model JSON files in:
+  - ./reports/metrics/
+  - reports/metrics/
+  - .report/metric/
+- Looks for keys like: model_path, joblib, path  
+- Loads corresponding .joblib or MLflow model folders  
+- If no JSON found → uses config/best_model_registered.json as final fallback  
+
+### ✔️ Benefit:
+The app **never breaks** — predictions & metrics always work,  
+even without MLflow or internet.
+
+-------------------------------------------------------------
+
+
 # 📁 Project Structure
 ```
 Real_Estate_Investment_Advisor/
@@ -106,17 +129,32 @@ OR you can download the complete project including models:
 3) **03_modeling_and_evaluation.ipynb**  
 4) **04_model_comparison_and_selection.ipynb**
 
+▶️ Install Requirements (before MLflow Training)
+``` 
+pip install -r requirements.txt
+```
+
 ### ▶️ MLflow Training (after completing notebooks)
 
 After preprocessing and EDA are complete, run MLflow setup and training scripts:
 
-1) **start_mlflow.bat** (Windows) or **start_mlflow.sh** (Mac/Linux)  
-2) **mlflow_init_experiment.py**
-  ```python src/mlflow_init_experiment.py ```
-4) **train_classification.py**
-   ``` python src/train_regression.py --mlflow_uri http://127.0.0.1:5000``` 
-6) **train_regression.py**
-   ``` python src/train_regression.py --mlflow_uri http://127.0.0.1:5000```
+1) **Start MLflow***
+```
+start start_mlflow.bat (Windows)
+bash start_mlflow.sh (Mac/Linux)  
+```
+3) **mlflow_init_experiment.py**
+  ```
+python src/mlflow_init_experiment.py
+```
+5) **train_classification.py**
+   ```
+   python src/train_regression.py --mlflow_uri http://127.0.0.1:5000
+   ``` 
+7) **train_regression.py**
+   ```
+    python src/train_regression.py --mlflow_uri http://127.0.0.1:5000
+   ```
 
 ### ▶️ Before running:
 
@@ -141,7 +179,9 @@ Otherwise, the Streamlit app automatically loads the best registered models.
 # 💻 Running the Streamlit App
 
 ### Go to the project root:
-```Real_Estate_Investment_Advisor/```
+```
+Real_Estate_Investment_Advisor/
+```
 
 ### 1️⃣ Create Virtual Environment (Windows)
 ```
@@ -156,11 +196,16 @@ source venv/bin/activate
 ```
 
 ### 2️⃣ Install Requirements
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 
 ### 3️⃣ Run the App
-```streamlit run app.py```
+```
+streamlit run app.py
+```
+
 -------------------------------------------------------------
 
 
