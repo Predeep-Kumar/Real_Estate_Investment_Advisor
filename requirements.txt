@@ -1,0 +1,14 @@
+pandas
+numpy
+scikit-learn
+xgboost
+mlflow
+joblib
+matplotlib
+seaborn
+pyyaml
+streamlitgit remote add origin https://github.com/Predeep-Kumar/Real_Estate_Investment_Advisor.git
+streamlit-extras==0.4.0
+
+# Plotly for 3D charts + gauge UI
+plotly==5.24.1

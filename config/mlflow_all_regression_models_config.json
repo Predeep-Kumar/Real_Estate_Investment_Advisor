@@ -1,0 +1,115 @@
+{
+  "mlflow_uri": "http://127.0.0.1:5000",
+  "registered_models": [
+    {
+      "model": "Linear Regression",
+      "display_name": "Linear Regression",
+      "params": {
+        "model_name": "Linear Regression"
+      },
+      "metrics": {
+        "MAE": 112.4242529133638,
+        "MSE": 19563.67320703133,
+        "RMSE": 139.8702012833017,
+        "R2_Score": 0.4925261246007058,
+        "Base_CV_RMSE_Mean": 139.56094112050326,
+        "Base_CV_RMSE_Std": 0.2543726847924803
+      },
+      "joblib": "models\\reg_linear_regression.joblib",
+      "run_id": "07aef7007c3d49f39d7e5e23ad4c75a3",
+      "artifact_uri": "file:///C:/Users/PREDEEP KUMAR/Downloads/Real_Estate_Investment_Advisor-20251210T192403Z-1-001/Real_Estate_Investment_Advisor/mlruns/0/07aef7007c3d49f39d7e5e23ad4c75a3/artifacts",
+      "registered_name": "Regression_linear_regression",
+      "registered_version": "5",
+      "stage": "Staging",
+      "is_best": false
+    },
+    {
+      "model": "Ridge Regression (Tuned)",
+      "display_name": "Ridge Regression (Tuned)",
+      "params": {
+        "model_name": "Ridge Regression (Tuned)"
+      },
+      "metrics": {
+        "MAE": 112.40406171415464,
+        "MSE": 19543.922651592147,
+        "RMSE": 139.7995802983405,
+        "R2_Score": 0.4930384461266249,
+        "Base_CV_RMSE_Mean": 139.55950004898878,
+        "Base_CV_RMSE_Std": 0.2543108499019176
+      },
+      "joblib": "models\\reg_ridge_regression_tuned.joblib",
+      "run_id": "cff151627ac646c49f1c0d4261aa4a44",
+      "artifact_uri": "file:///C:/Users/PREDEEP KUMAR/Downloads/Real_Estate_Investment_Advisor-20251210T192403Z-1-001/Real_Estate_Investment_Advisor/mlruns/0/cff151627ac646c49f1c0d4261aa4a44/artifacts",
+      "registered_name": "Regression_ridge_regression_tuned",
+      "registered_version": "5",
+      "stage": "Staging",
+      "is_best": false
+    },
+    {
+      "model": "Random Forest Regressor (Tuned)",
+      "display_name": "Random Forest Regressor (Tuned)",
+      "params": {
+        "model_name": "Random Forest Regressor (Tuned)"
+      },
+      "metrics": {
+        "MAE": 101.65727692338648,
+        "MSE": 14838.845973317775,
+        "RMSE": 121.81480194671654,
+        "R2_Score": 0.6150862574301064,
+        "Base_CV_RMSE_Mean": 157.6766543562781,
+        "Base_CV_RMSE_Std": 2.4673864157944383
+      },
+      "joblib": "models\\reg_random_forest_regressor_tuned.joblib",
+      "run_id": "f8d63f33acae480189732c6b6d87dfe9",
+      "artifact_uri": "file:///C:/Users/PREDEEP KUMAR/Downloads/Real_Estate_Investment_Advisor-20251210T192403Z-1-001/Real_Estate_Investment_Advisor/mlruns/0/f8d63f33acae480189732c6b6d87dfe9/artifacts",
+      "registered_name": "Regression_random_forest_regressor_tuned",
+      "registered_version": "1",
+      "stage": "Staging",
+      "is_best": false
+    },
+    {
+      "model": "XGBoost Regressor (Tuned)",
+      "display_name": "XGBoost Regressor (Tuned) (best)",
+      "params": {
+        "model_name": "XGBoost Regressor (Tuned)"
+      },
+      "metrics": {
+        "MAE": 2.820348272788696,
+        "MSE": 20.227487130573767,
+        "RMSE": 4.497497874437937,
+        "R2_Score": 0.9994753070563428,
+        "Base_CV_RMSE_Mean": 5.94279797906924,
+        "Base_CV_RMSE_Std": 0.1086309359912574
+      },
+      "joblib": "models\\reg_xgboost_regressor_tuned.joblib",
+      "run_id": "ec91941276454889bd19fb6fe83e1f17",
+      "artifact_uri": "file:///C:/Users/PREDEEP KUMAR/Downloads/Real_Estate_Investment_Advisor-20251210T192403Z-1-001/Real_Estate_Investment_Advisor/mlruns/0/ec91941276454889bd19fb6fe83e1f17/artifacts",
+      "registered_name": "Regression_xgboost_regressor_tuned",
+      "registered_version": "5",
+      "stage": "Production",
+      "is_best": true
+    }
+  ],
+  "best_model": {
+    "model": "XGBoost Regressor (Tuned)",
+    "display_name": "XGBoost Regressor (Tuned) (best)",
+    "params": {
+      "model_name": "XGBoost Regressor (Tuned)"
+    },
+    "metrics": {
+      "MAE": 2.820348272788696,
+      "MSE": 20.227487130573767,
+      "RMSE": 4.497497874437937,
+      "R2_Score": 0.9994753070563428,
+      "Base_CV_RMSE_Mean": 5.94279797906924,
+      "Base_CV_RMSE_Std": 0.1086309359912574
+    },
+    "joblib": "models\\reg_xgboost_regressor_tuned.joblib",
+    "run_id": "ec91941276454889bd19fb6fe83e1f17",
+    "artifact_uri": "file:///C:/Users/PREDEEP KUMAR/Downloads/Real_Estate_Investment_Advisor-20251210T192403Z-1-001/Real_Estate_Investment_Advisor/mlruns/0/ec91941276454889bd19fb6fe83e1f17/artifacts",
+    "registered_name": "Regression_xgboost_regressor_tuned",
+    "registered_version": "5",
+    "stage": "Production",
+    "is_best": true
+  }
+}

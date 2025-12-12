@@ -1,0 +1,9 @@
+best_model_name: XGBoost Classifier (Tuned)
+model_file_path: ./models/clf_xgboost_tuned.joblib
+Accuracy: 0.85992
+Precision: 0.8607247050864657
+Recall: 0.8458470104292184
+F1_Score: 0.8532210067479777
+ROC_AUC: 0.9607395419249772
+CV_ROC_AUC_Mean: 0.9606031525003654
+CV_ROC_AUC_Std: 0.000707977966397

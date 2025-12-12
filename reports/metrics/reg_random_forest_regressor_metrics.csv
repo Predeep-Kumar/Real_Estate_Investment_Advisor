@@ -1,0 +1,2 @@
+Model,Base_CV_RMSE_Mean,Base_CV_RMSE_Std,Best_Params,Best_CV_RMSE,MAE,MSE,RMSE,R2_Score
+Random Forest Regressor (Tuned),157.6766543562781,2.4673864157944383,"{'model__max_depth': None, 'model__min_samples_split': 2, 'model__n_estimators': 100}",121.59055554347735,101.65727692338648,14838.845973317775,121.81480194671654,0.6150862574301064

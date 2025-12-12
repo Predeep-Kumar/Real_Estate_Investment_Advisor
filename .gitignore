@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.env
+venv/
+.venv
+.env.*
+
+# IDEs
+.vscode/
+.idea/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data and artifacts (do NOT push large raw data or model artifacts)
+data/raw/
+data/processed/
+mlruns/
+.mlflow/
+mlflow.db
+mlflow_registry.db
+models/*.joblib
+models/*.pkl
+models/*.onnx
+models/*.h5
+
+# Logs and runtime
+*.log
+*.log.*
+*.sqlite
+*.db
+
+# Wheels/cache
+pip-wheel-metadata/
+.wheelhouse/
+
+# Docker
+docker-compose.override.yml
+
+# Secrets
+secrets/
+*.pem
+*.key

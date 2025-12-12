@@ -1,0 +1,2 @@
+Model,Base_CV_ROC_AUC_Mean,Base_CV_ROC_AUC_Std,Best_Params,Best_CV_ROC_AUC,Accuracy,Precision,Recall,F1_Score,ROC_AUC
+XGBoost Classifier (Tuned),0.9606031525003654,0.0007079779663970523,"{'model__colsample_bytree': 1.0, 'model__learning_rate': 0.1, 'model__max_depth': 5, 'model__n_estimators': 200, 'model__subsample': 0.8}",0.9607075504807746,0.85992,0.8607247050864657,0.8458470104292184,0.8532210067479777,0.9607395419249771

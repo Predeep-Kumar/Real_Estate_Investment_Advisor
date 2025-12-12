@@ -1,0 +1,9 @@
+{
+  "model": "XGBoost Regressor (Tuned)",
+  "joblib": "models\\reg_xgboost_regressor_tuned.joblib",
+  "run_id": "ec91941276454889bd19fb6fe83e1f17",
+  "artifact_uri": "file:///C:/Users/PREDEEP KUMAR/Downloads/Real_Estate_Investment_Advisor-20251210T192403Z-1-001/Real_Estate_Investment_Advisor/mlruns/0/ec91941276454889bd19fb6fe83e1f17/artifacts",
+  "registered_name": "Regression_xgboost_regressor_tuned",
+  "registered_version": "5",
+  "production_uri": "models:/Regression_xgboost_regressor_tuned/Production"
+}

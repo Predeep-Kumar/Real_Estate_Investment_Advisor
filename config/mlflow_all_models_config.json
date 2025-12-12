@@ -1,0 +1,97 @@
+{
+  "mlflow_uri": "http://127.0.0.1:5000",
+  "registered_models": [
+    {
+      "model": "Logistic Regression (Tuned)",
+      "display_name": "Logistic Regression (Tuned)",
+      "params": {
+        "model_name": "Logistic Regression (Tuned)"
+      },
+      "metrics": {
+        "Accuracy": 0.81472,
+        "Precision": 0.8039505564453205,
+        "Recall": 0.8134374870154153,
+        "F1_Score": 0.8086661985212111,
+        "ROC_AUC": 0.8963113634919917,
+        "CV_ROC_AUC_Mean": 0.8924475269954664,
+        "CV_ROC_AUC_Std": 0.0005676435455585
+      },
+      "joblib": "models\\clf_logistic_regression_tuned.joblib",
+      "run_id": "7f8441eb29964f6799090be4a792a73e",
+      "artifact_uri": "file:///C:/Users/PREDEEP KUMAR/Downloads/Real_Estate_Investment_Advisor-20251210T192403Z-1-001/Real_Estate_Investment_Advisor/mlruns/0/7f8441eb29964f6799090be4a792a73e/artifacts",
+      "registered_name": "Classification_logistic_regression_tuned",
+      "registered_version": "6",
+      "stage": "Staging",
+      "is_best": false
+    },
+    {
+      "model": "Random Forest (Tuned)",
+      "display_name": "Random Forest (Tuned)",
+      "params": {
+        "model_name": "Random Forest (Tuned)"
+      },
+      "metrics": {
+        "Accuracy": 0.85998,
+        "Precision": 0.8529825432282617,
+        "Recall": 0.8567748369136161,
+        "F1_Score": 0.854874484359777,
+        "ROC_AUC": 0.9586698865453904,
+        "CV_ROC_AUC_Mean": 0.9574173411465904,
+        "CV_ROC_AUC_Std": 0.001172025661079
+      },
+      "joblib": "models\\clf_random_forest_tuned.joblib",
+      "run_id": "1bbc2266a87f4b72a0c5626651bd0bc0",
+      "artifact_uri": "file:///C:/Users/PREDEEP KUMAR/Downloads/Real_Estate_Investment_Advisor-20251210T192403Z-1-001/Real_Estate_Investment_Advisor/mlruns/0/1bbc2266a87f4b72a0c5626651bd0bc0/artifacts",
+      "registered_name": "Classification_random_forest_tuned",
+      "registered_version": "6",
+      "stage": "Staging",
+      "is_best": false
+    },
+    {
+      "model": "XGBoost Classifier (Tuned)",
+      "display_name": "XGBoost Classifier (Tuned) (best)",
+      "params": {
+        "model_name": "XGBoost Classifier (Tuned)"
+      },
+      "metrics": {
+        "Accuracy": 0.85992,
+        "Precision": 0.8607247050864657,
+        "Recall": 0.8458470104292184,
+        "F1_Score": 0.8532210067479777,
+        "ROC_AUC": 0.9607395419249772,
+        "CV_ROC_AUC_Mean": 0.9606031525003654,
+        "CV_ROC_AUC_Std": 0.000707977966397
+      },
+      "joblib": "models\\clf_xgboost_tuned.joblib",
+      "run_id": "156ecec4dbe941d1baf0c2e2db6cd748",
+      "artifact_uri": "file:///C:/Users/PREDEEP KUMAR/Downloads/Real_Estate_Investment_Advisor-20251210T192403Z-1-001/Real_Estate_Investment_Advisor/mlruns/0/156ecec4dbe941d1baf0c2e2db6cd748/artifacts",
+      "registered_name": "Classification_xgboost_classifier_tuned",
+      "registered_version": "6",
+      "stage": "Production",
+      "is_best": true
+    }
+  ],
+  "best_model": {
+    "model": "XGBoost Classifier (Tuned)",
+    "display_name": "XGBoost Classifier (Tuned) (best)",
+    "params": {
+      "model_name": "XGBoost Classifier (Tuned)"
+    },
+    "metrics": {
+      "Accuracy": 0.85992,
+      "Precision": 0.8607247050864657,
+      "Recall": 0.8458470104292184,
+      "F1_Score": 0.8532210067479777,
+      "ROC_AUC": 0.9607395419249772,
+      "CV_ROC_AUC_Mean": 0.9606031525003654,
+      "CV_ROC_AUC_Std": 0.000707977966397
+    },
+    "joblib": "models\\clf_xgboost_tuned.joblib",
+    "run_id": "156ecec4dbe941d1baf0c2e2db6cd748",
+    "artifact_uri": "file:///C:/Users/PREDEEP KUMAR/Downloads/Real_Estate_Investment_Advisor-20251210T192403Z-1-001/Real_Estate_Investment_Advisor/mlruns/0/156ecec4dbe941d1baf0c2e2db6cd748/artifacts",
+    "registered_name": "Classification_xgboost_classifier_tuned",
+    "registered_version": "6",
+    "stage": "Production",
+    "is_best": true
+  }
+}

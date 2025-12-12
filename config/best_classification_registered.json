@@ -1,0 +1,9 @@
+{
+  "model": "XGBoost Classifier (Tuned)",
+  "joblib": "models\\clf_xgboost_tuned.joblib",
+  "run_id": "156ecec4dbe941d1baf0c2e2db6cd748",
+  "artifact_uri": "file:///C:/Users/PREDEEP KUMAR/Downloads/Real_Estate_Investment_Advisor-20251210T192403Z-1-001/Real_Estate_Investment_Advisor/mlruns/0/156ecec4dbe941d1baf0c2e2db6cd748/artifacts",
+  "registered_name": "Classification_xgboost_classifier_tuned",
+  "registered_version": "6",
+  "production_uri": "models:/Classification_xgboost_classifier_tuned/Production"
+}

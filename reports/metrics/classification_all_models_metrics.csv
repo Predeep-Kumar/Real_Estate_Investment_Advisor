@@ -1,0 +1,4 @@
+Model,Base_CV_ROC_AUC_Mean,Base_CV_ROC_AUC_Std,Best_Params,Best_CV_ROC_AUC,Accuracy,Precision,Recall,F1_Score,ROC_AUC
+Logistic Regression (Tuned),0.8924475269954664,0.0005676435455585,"{'model__C': 0.01, 'model__class_weight': None}",0.8934470681583275,0.81472,0.8039505564453205,0.8134374870154153,0.8086661985212111,0.8963113634919917
+Random Forest (Tuned),0.9574173411465904,0.001172025661079,"{'model__max_depth': None, 'model__min_samples_split': 5, 'model__n_estimators': 100}",0.957293063071481,0.85998,0.8529825432282617,0.8567748369136161,0.854874484359777,0.9586698865453904
+XGBoost Classifier (Tuned),0.9606031525003654,0.000707977966397,"{'model__colsample_bytree': 1.0, 'model__learning_rate': 0.1, 'model__max_depth': 5, 'model__n_estimators': 200, 'model__subsample': 0.8}",0.9607075504807746,0.85992,0.8607247050864657,0.8458470104292184,0.8532210067479777,0.9607395419249772

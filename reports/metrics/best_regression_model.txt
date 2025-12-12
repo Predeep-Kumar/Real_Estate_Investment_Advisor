@@ -1,0 +1,8 @@
+best_model_name: XGBoost Regressor (Tuned)
+model_file_path: ./models/xgboost_regressor_tuned.joblib
+MAE: 2.820348272788696
+MSE: 20.227487130573767
+RMSE: 4.497497874437937
+R2_Score: 0.9994753070563428
+CV_RMSE_Mean: 5.94279797906924
+CV_RMSE_Std: 0.1086309359912574

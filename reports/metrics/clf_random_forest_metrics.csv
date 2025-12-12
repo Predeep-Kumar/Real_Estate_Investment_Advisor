@@ -1,0 +1,2 @@
+Model,Base_CV_ROC_AUC_Mean,Base_CV_ROC_AUC_Std,Best_Params,Best_CV_ROC_AUC,Accuracy,Precision,Recall,F1_Score,ROC_AUC
+Random Forest (Tuned),0.9574173411465903,0.0011720256610790595,"{'model__max_depth': None, 'model__min_samples_split': 5, 'model__n_estimators': 100}",0.957293063071481,0.85998,0.8529825432282617,0.8567748369136161,0.854874484359777,0.9586698865453904
